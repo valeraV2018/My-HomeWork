@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О себе</title>
+    <link rel="stylesheet" href="../css/mystyle.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img class="img" src="../img/logo.png" alt="квадрат" />
+      <nav>
+        <ul class="header_list">
+          <li>
+            <a class="header-link" href="../index.html">Главная</a>
+          </li>
+          <li>
+            <a class="header-link" href="../pages/students.html">Студенты</a>
+          </li>
+          <li>
+            <a class="header-link" href="../pages/aboutcourse.html">О курсе</a>
+          </li>
+          <li>
+            <a class="header-link" href="../pages/contacts.html">Контакты</a>
+          </li>
+          <li>
+            <a class="header-link" href="#">О себе</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button animate-grow">Войти</button>
+    </header>
+
+    <div class="wrapper">
+      <main class="main">
+        <img src="../img/myphoto.jpg" alt="мое-фото" class="main-photo" />
+
+        <div class="main-iner">
+          <h1 class="main-iner-title">Волчков Валерий</h1>
+          <span class="main-iner-sisy">г. Иркутск</span>
+          <h2 class="main-iner-item">Стек технологии:</h2>
+          <div class="main-iner-advantes">
+            <span class="list-item">HTML</span>
+            <span class="list-item">CSS</span>
+            <span class="list-item">JS</span>
+            <span class="list-item">GitHub</span>
+            <span class="list-item">Flexbox</span>
+          </div>
+          <h2 class="main-iner-item">О себе:</h2>
+          <p class="main-iner-districtio">
+            Лучший программист всех времен. Взломаю Пентагон, сверстаю сайт,
+            поправлю кнопочку на 1 рх влево. Готов работать 24/7.
+          </p>
+          <p class="main-iner-districtio">
+            В свободное время учу английский, китайский. Играю в игры. Люблю
+            бутерброды с колбасой и сыром.
+          </p>
+          <div class="div-form">
+            <form class="myform">
+              <input type="email" class="field-long" placeholder="Email" />
+              <input type="text" class="field-long" placeholder="Сообщение" />
+            </form>
+          </div>
+          <div class="form-button">
+            <ul class="list-button">
+              <li>
+                <a class="href-button" href="#"
+                  ><button class="mybutton">Связаться со мной</button></a
+                >
+              </li>
+              <li>
+                <a
+                  class="href-button"
+                  href="https://vk.com/vvolchkov1980"
+                  target="_blank"
+                  ><button class="mybutton">Мой VK</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy;
+        <a class="link" href="#">учебный центр</a>
+      </p>
+    </footer>
+    <div class="modal">
+      <form class="modal-form">
+        <h2 class="modal-text">Войти в аккаунт</h2>
+        <input class="modal-input" type="text" placeholder="Логин" />
+        <input class="modal-input" type="password" placeholder="Пароль" />
+        <label for="check" class="modal-label">
+          <input class="modal-checkbox" type="checkbox" id="check" />
+          Запомнить меня
+        </label>
+        <button class="modal-button animate-grow" type="submint">Войти</button>
+        <button class="modal-close-button">
+          <img class="close" src="../img/close_delete.png" alt="крестик" />
+        </button>
+      </form>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

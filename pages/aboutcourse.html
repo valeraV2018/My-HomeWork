@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О курсе</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/aboutcourse.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <img class="img" src="../img/logo.png" alt="квадрат" />
+        <nav>
+          <ul class="header_list">
+            <li>
+              <a class="header-link" href="../index.html">Главная</a>
+            </li>
+            <li>
+              <a class="header-link" href="../pages/students.html">Студенты</a>
+            </li>
+            <li>
+              <a class="header-link" href="#">О курсе</a>
+            </li>
+            <li>
+              <a class="header-link" href="../pages/contacts.html">Контакты</a>
+            </li>
+            <li>
+              <a class="header-link" href="../pages/myindex.html">О себе</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button animate-grow">Войти</button>
+      </header>
+      <main class="main-aboutcurse">
+        <h1 class="text-about">О курсе 📱</h1>
+        <h2 class="look-video">Посмотрите видео о нас</h2>
+        <div>
+          <iframe
+            class="about-video"
+            src="https://www.youtube.com/embed/0v7pdd4za6s"
+          ></iframe>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="copyright">
+          2022 &copy;
+          <a class="link" href="#">учебный центр</a>
+        </p>
+      </footer>
+      <div class="modal">
+        <form class="modal-form">
+          <h2 class="modal-text">Войти в аккаунт</h2>
+          <input class="modal-input" type="text" placeholder="Логин" />
+          <input class="modal-input" type="password" placeholder="Пароль" />
+          <label for="check" class="modal-label">
+            <input class="modal-checkbox" type="checkbox" id="check" />
+            Запомнить меня
+          </label>
+          <button class="modal-button animate-grow" type="submint">
+            Войти
+          </button>
+          <button class="modal-close-button">
+            <img class="close" src="../img/close_delete.png" alt="крестик" />
+          </button>
+        </form>
+      </div>
+      <script src="../js/script.js"></script>
+    </div>
+  </body>
+</html>
