@@ -1,0 +1,66 @@
+.main-contact {
+   
+    
+}
+.search {
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+color: #000000;
+padding-left: 30%;
+}
+.map-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.yandex-map {
+    width: 90%;
+    height: 60vh;
+    border: none;
+}
+.cont {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30%;
+}
+.our-contacts {
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.address {
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.phone-number {
+    text-decoration: underline;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+@media (max-width: 900px) {
+    .main-contakt {
+        box-sizing: border-box;
+        padding: 0 2px;
+    }
+}
